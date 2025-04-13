@@ -1,0 +1,666 @@
+#height{
+    height: 1180px;
+}
+
+
+body{
+    background-color: #1E201E;
+    text-align: center;
+    
+}
+
+#one{
+    color: aliceblue;
+    font-size:40px;
+
+}
+
+#head{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+#main{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 250px;
+    height: 300px;
+    
+}
+
+#card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+
+#card:hover{
+    transform:rotateY(180deg);
+}
+
+#front{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384149/photo/harare-zimbabwe-tadiwanashe-marumani-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=LyaIXV-bO0-5UI7GBoE6Tw7KGw3ixoovySunujfw50Q=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #7F8487;
+    color:black;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#h{
+    position: relative;
+    top: 265px;
+    color: black;
+    font-size: 18px;
+}
+
+#match1{
+    width: 225px;
+}
+
+#main1{
+    position: relative;
+    bottom: 280px;
+    left: 435px;
+    width: 250px;
+    height: 300px;
+
+}
+
+#card1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+#front1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384131/photo/harare-zimbabwe-innocent-kaia-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=F4kMH3duk9Zet6CULNqmQgjNGjwtOHcbad1rc_fdydU=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+    box-shadow: 2px 2px 5px 2px white;
+    
+
+}
+
+#back1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#card1:hover{
+    transform: rotateY(180deg);
+}
+
+#h1{
+    position: relative;
+    top: 255px;
+    color: black;
+    
+}
+
+#match2{
+    width: 225px;
+}
+
+#main2{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 820px;
+    bottom: 580px;
+    
+}
+
+#card2{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#front2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1364475730/photo/basseterre-saint-kitts-and-nevis-brian-bennett-of-zimbabwe-poses-for-a-photo-on-january-10.jpg?s=612x612&w=0&k=20&c=_HqektdJnQCnsFa5Es5PE6Umg7AteN6E6-uQTno1O6M=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#card2:hover{
+    transform: rotateY(180deg);
+}
+
+#h2{
+    text-align: center;
+    position: relative;
+    top: 266px;
+    color: black;
+    font-size: 18px;
+}
+
+#match3{
+    width: 225px;
+}
+
+#main3{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 1190px;
+    
+    bottom: 880px;
+    
+}
+
+#card3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+#front3{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498383954/photo/harare-zimbabwe-sikandar-raza-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=J2u7K-3XhGfXo1vh0n_ls0CRme2JwvkE5EAUjWqQNgs=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    
+}
+
+#back3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card3:hover{
+    transform: rotateY(180deg);
+}
+
+#h3{
+    text-align: center;
+    position: relative;
+    top: 255px;
+    color: black;
+}
+
+#match4{
+    width: 225px;
+}
+
+#main4{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 60px;
+    bottom: 820px;
+
+}
+
+#card4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_800,q_50/lsci/db/PICTURES/CMS/396500/396593.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card4:hover{
+    transform: rotateY(180deg);
+}
+
+#h4{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#main5{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 430px;
+    bottom: 1120px;
+
+}
+
+#card5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384175/photo/harare-zimbabwe-clive-madande-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=_zPy27WpPaB4qUN4mbGJD8je_pJNK8NnRPsWxO__93Q=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    
+
+}
+
+#back5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card5:hover{
+    transform: rotateY(180deg);
+}
+
+#h5{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+}
+
+
+#main6{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 820px;
+    bottom: 1420px;
+
+}
+
+#card6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384229/photo/harare-zimbabwe-wessly-madhevere-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=Lu_xfrirUWj6SEgmkei4eh2Lni8VsuhWPeI2gfGu2Vs=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    
+}
+
+#back6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#card6:hover{
+    transform: rotateY(180deg);
+}
+
+#h6{
+    position: relative;
+    top: 270px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 20px;
+    color: black;
+
+}
+
+
+#main7{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 1190px;
+    bottom: 1720px;
+
+}
+
+#card7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498381751/photo/harare-zimbabwe-luke-jongwe-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens-cricket.jpg?s=612x612&w=0&k=20&c=_wtVsVMdXBn-0fVl0s5hBR6v13seIPkwwPLQYks5xCs=);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card7:hover{
+    transform: rotateY(180deg);
+}
+
+#h7{
+    position: relative;
+    top: 268px;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 20px;
+    color: black;
+}
+
+#main8{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 250px;
+    bottom: 1660px;
+
+}
+
+#card8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384070/photo/harare-zimbabwe-blessing-muzarabani-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=J_A6uB1ASjY-32SY8b3EnJW0JH7V14_5dC3oWIdgu04=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#card8:hover{
+    transform: rotateY(180deg);
+}
+
+#h8{
+    position: relative;
+    top: 255px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#main9{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 630px;
+    bottom: 1960px;
+
+}
+
+#card9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384122/photo/harare-zimbabwe-tendai-chatara-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=LXAiNCBvgG-8IEXuRm9u5Y75hpB2hLyXKIVaEOhQqi4=);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card9:hover{
+    transform: rotateY(180deg);
+}
+
+#h9{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+
+#main10{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 1020px;
+    bottom: 2260px;
+
+}
+
+#card10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1498384211/photo/harare-zimbabwe-richard-ngarava-of-zimbabwe-poses-for-a-photograph-prior-to-the-icc-mens.jpg?s=612x612&w=0&k=20&c=pRF9czbFsaUpYPloOnLIX6r2DQ2YKI5_7dfw59iZaB0=);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card10:hover{
+    transform: rotateY(180deg);
+}
+
+#h10{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}

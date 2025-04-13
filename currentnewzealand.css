@@ -1,0 +1,670 @@
+#height{
+    height: 1180px;
+}
+
+
+body{
+    background-color: #1E201E;
+    text-align: center;
+    
+}
+
+#one{
+    color: aliceblue;
+    font-size:40px;
+
+}
+
+#head{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+#main{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 250px;
+    height: 300px;
+    
+}
+
+#card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+
+#card:hover{
+    transform:rotateY(180deg);
+}
+
+#front{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1711506547/photo/thiruvananthapuram-india-devon-conway-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=0&k=20&c=pCqQNklupeCHcQMh1kp7XZ26yRPGlOWaD5N6ibP1lg0=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #7F8487;
+    color:black;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#h{
+    position: relative;
+    top: 262px;
+    color: white;
+    font-size: 20px;
+}
+
+#match1{
+    width: 225px;
+}
+
+#main1{
+    position: relative;
+    bottom: 280px;
+    left: 435px;
+    width: 250px;
+    height: 300px;
+
+}
+
+#card1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+#front1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1711506570/photo/thiruvananthapuram-india-rachin-ravindra-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=0&k=20&c=qd2lUnVNY3SowJjHN2_aBnLoahudx2r4YL8xHYrTj9E=);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+    box-shadow: 2px 2px 5px 2px white;
+    
+
+}
+
+#back1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#card1:hover{
+    transform: rotateY(180deg);
+}
+
+#h1{
+    position: relative;
+    top: 264px;
+    color: white;
+    font-size: 17px;
+    
+}
+
+#match2{
+    width: 225px;
+}
+
+#main2{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 820px;
+    bottom: 580px;
+    
+}
+
+#card2{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#front2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1711506563/photo/thiruvananthapuram-india-kane-williamson-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=0&k=20&c=NqGh2USdJH1ASXiwZ9Bw4vAyPji0P6FJ92taB4yDgWA=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+}
+
+#card2:hover{
+    transform: rotateY(180deg);
+}
+
+#h2{
+    text-align: center;
+    position: relative;
+    top: 266px;
+    color: white;
+    font-size: 16px;
+}
+
+#match3{
+    width: 225px;
+}
+
+#main3{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 1190px;
+    
+    bottom: 880px;
+    
+}
+
+#card3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+#front3{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://www.hindustantimes.com/static-content/1y/cricket-logos/players/daryl-mitchell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    
+}
+
+#back3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card3:hover{
+    transform: rotateY(180deg);
+}
+
+#h3{
+    text-align: center;
+    position: relative;
+    top: 263px;
+    color: white;
+    font-size: 18px;
+}
+
+#match4{
+    width: 225px;
+}
+
+#main4{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 60px;
+    bottom: 820px;
+
+}
+
+#card4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1711507092/photo/thiruvananthapuram-india-tom-latham-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc-mens.jpg?s=612x612&w=0&k=20&c=SpGSojBoM44c94X2ZbKVJcf34CZZsz0Egs3_iIv7w9U=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card4:hover{
+    transform: rotateY(180deg);
+}
+
+#h4{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+#main5{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 430px;
+    bottom: 1120px;
+
+}
+
+#card5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://www.hindustantimes.com/static-content/1y/cricket-logos/players/glenn-phillips.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    
+
+}
+
+#back5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card5:hover{
+    transform: rotateY(180deg);
+}
+
+#h5{
+    position: relative;
+    top: 263px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+#main6{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 820px;
+    bottom: 1420px;
+
+}
+
+#card6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/95659065/photo/christchurch-new-zealand-michael-bracewell-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=0&k=20&c=bledpokAWK8YiJsjXrUUtHpRbOZ-kyZ2wgOKGje60k4=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    
+}
+
+#back6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#card6:hover{
+    transform: rotateY(180deg);
+}
+
+#h6{
+    position: relative;
+    top: 265px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 20px;
+    color: white;
+
+}
+
+
+#main7{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 1190px;
+    bottom: 1720px;
+
+}
+
+#card7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/2200057405/photo/karachi-pakistan-mitchell-santner-of-new-zealand-poses-for-a-portrait-during-the-icc.jpg?s=612x612&w=0&k=20&c=PnP_i-CqaiQcri-K4Y1m_L90SNZTfjM21PShVmi6F2I=);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#card7:hover{
+    transform: rotateY(180deg);
+}
+
+#h7{
+    position: relative;
+    top: 268px;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 20px;
+    color: white;
+}
+
+#main8{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 250px;
+    bottom: 1660px;
+
+}
+
+#card8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1711506533/photo/thiruvananthapuram-india-matt-henry-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc-mens.jpg?s=612x612&w=0&k=20&c=4bKaDpLg2aqVCSIsFrp_l_8Vy6j-TP0_9JerXDtr02Q=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card8:hover{
+    transform: rotateY(180deg);
+}
+
+#h8{
+    position: relative;
+    top: 255px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#main9{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 630px;
+    bottom: 1960px;
+
+}
+
+#card9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://media.gettyimages.com/id/1711506583/photo/thiruvananthapuram-india-lockie-ferguson-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=0&k=20&c=MoDXwEHoC-Uv8KPxeVN4JE9rLGysao2GLqKT9SEfDOQ=);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+}
+
+#card9:hover{
+    transform: rotateY(180deg);
+}
+
+#h9{
+    position: relative;
+    top: 268px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+
+#main10{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    left: 1020px;
+    bottom: 2260px;
+
+}
+
+#card10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+#front10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://i1.wp.com/crictoday.com/wp-content/uploads/2024/03/William-ORourke-4.jpg?ssl=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+
+}
+
+#back10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #7F8487;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#card10:hover{
+    transform: rotateY(180deg);
+}
+
+#h10{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

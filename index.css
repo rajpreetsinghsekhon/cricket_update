@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    height: 100vh; 
+    background-image: url('https://i.pinimg.com/originals/81/dd/d3/81ddd367e580ac8909ea032cca1a50ca.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+
+
+
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(249,249,249,1);
+}
+
+#select{
+    text-align: center;
+    font-size: xx-large;
+    color:black;
+    text-shadow: 2px 2px 3px rgb(248, 245, 245);
+}
+
+#team{
+    background: rgba(108, 112, 114, 0.614);
+    width: 430px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(243, 244, 245, 0.888);
+    position: relative;
+    left: 550px;
+    bottom: 20px;
+    
+}
+
+#india {
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 210px;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left:1px;
+    padding-right: 1px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    
+
+    
+
+}
+
+#india:hover{
+    transform: translatey(-10px);
+}
+
+#in {
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    
+}
+
+
+#england {
+    background: rgba(3, 3, 3, 0.771);
+    height: 220px;
+    width: 185px;
+    border-radius: 40px;
+    
+    padding-left: 20px;
+    
+    margin-left: 20px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 255px;
+    bottom: 240px;
+    
+}
+
+#england:hover{
+    transform: translateY(-10px);
+}
+
+#en{
+    color: white;
+    font-family:algerian;
+    font-weight: 100;
+    position: relative;
+    bottom: 5px;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162) ;
+}
+
+#eng{
+    position: relative;
+    bottom: 9px;
+}
+
+#australia{
+    background: rgba(3, 3, 3, 0.771);
+    height: 220px;
+    width: 200px;
+    position: relative;
+    left: 530px;
+    bottom: 480px;
+    border-radius: 40px;
+    box-shadow:0 5px 15px rgb(255, 255, 255) ;
+}
+
+#australia:hover{
+    transform: translateY(-10px);
+}
+
+#au{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    position: relative;
+    bottom: 38px;
+    font-size:20px;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+
+}
+
+#aus{
+    position: relative;
+    
+    left: 15px;
+    bottom: 10px;
+}
+
+#south{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 210px;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left:1px;
+    padding-right: 1px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 765px;
+    bottom: 700px;
+
+}
+
+#south:hover{
+    transform: translateY(-10px);
+}
+
+#africa{
+    position: relative;
+    left: 26px;
+    bottom: 3px;
+}
+
+#so{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    
+}
+
+#newzealand{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+   
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 1025px;
+    bottom:920px;
+}
+
+#newzealand:hover{
+    transform: translateY(-10px);
+}
+
+#zea{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    font-size: 20px;
+    position: relative;
+    top: 18px;
+}
+
+#new{
+    position: relative;
+    left: 22px;
+    top: 2px;
+}
+
+
+#pakistan{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 1280px;
+    bottom: 1140px;
+}
+#pakistan:hover{
+    transform: translateY(-10px);
+}
+
+#pak{
+    position: relative;
+    left: 22px;
+    bottom: 8px;
+    
+}
+
+#stan{
+    color: rgb(255, 255, 255);
+    font-family: algerian,serif;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    font-size: 20px;
+    position: fixed;
+    
+
+    
+    
+    
+}
+
+#srilanka{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    bottom:1060px;
+}
+#srilanka:hover{
+    transform: translateY(-10px);
+}
+
+#sri{
+    position: relative;
+    left: 41px;
+    top: 15px;
+}
+
+#lanka{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    position: relative;
+    top: 30px;
+}
+
+#zimbabwe{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 255px;
+    bottom: 1280px;
+}
+
+#zimbabwe:hover{
+    transform: translateY(-10px);
+}
+
+#zim{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    
+}
+
+#bab{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    position: relative;
+    top: 18px;
+    bottom: 2px;
+}
+
+#bangladesh{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 510px;
+    bottom: 1498px;
+}
+#bangladesh:hover{
+    transform: translateY(-10px);
+}
+
+#bangla{
+    position: relative;
+    left: 38px;
+    top: 15px;
+}
+
+#desh{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    font-size: 22px;
+    position: relative;
+    top: 35px;
+    
+}
+
+#ireland{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 770px;
+    bottom:1718px;
+}
+
+#ireland:hover{
+    transform: translateY(-10px);
+}
+
+#ire{
+    position: relative;
+    left:30px;
+    top: 7px;
+}
+
+#land{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    position: relative;
+    top: 12px;
+}
+
+#afghanistan{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 1030px;
+    bottom: 1935px;
+}
+
+#afghanistan:hover{
+    transform: translateY(-10px);
+}
+
+#afghan{
+    position: relative;
+    left: 28px;
+    top: 3px;
+}
+
+#stan{
+    position: relative;
+    top: 20px;
+}
+
+#westindies{
+    background:rgba(3, 3, 3, 0.771);
+    width: 200px;
+    margin-left: 20px;
+    height: 219px;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    position: relative;
+    left: 1280px;
+    bottom: 2155px;
+    
+}
+
+#westindies:hover{
+    transform: translateY(-10px);
+}
+
+#indies{
+    color: white;
+    font-family: algerian;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgb(219, 162, 162);
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+}
+
+#west{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+
+
+#h{
+    height: 600px;
+}
